@@ -92,8 +92,8 @@ const handleSubmit = async (event) => {
                     type="password" 
                     required 
                     onChange={handleChange}
-                    name="password"
-                    value={password}
+                    name="confirmPassword"
+                    value={confirmPassword}
                     />
                     <Button type="submit" >Sign Up</Button>
             </form>
